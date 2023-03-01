@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.top {
+    background-color:blue;
+    width: 100%;
+    height: 50px;
+    clear: both;
+    display: table;
+    justify-items: right;
+
+}
+
+p {
+    font-size: 1.8rem;
+    float: left;
+}
+
+.Nav {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+
+}
+
+.Nav li {
+
+    font-size: 1.6rem;
+    display: inline-block;
+    padding-left: 2px;
+    padding-right: 2px;
+}
