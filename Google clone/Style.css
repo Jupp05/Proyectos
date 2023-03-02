@@ -15,7 +15,7 @@ a {
 }
 
 body {
-    background-color: #151515 ;
+    background-color: white;
 }
 
 header {
@@ -43,7 +43,7 @@ header {
 }
 
 .nav a {
-    color: white;
+    color: black;
     max-width: 992px;
 }
 
@@ -60,7 +60,7 @@ header {
 svg {
     width: 32px;
     height: 32px;
-    fill:white;
+    fill: black;
 }
 
 .personal-img{
@@ -76,7 +76,7 @@ svg {
 }
 
 
-main div {
+.center-google {
     display: flex;
     height: 300px;
     width: 100%;
@@ -84,7 +84,17 @@ main div {
     align-items: flex-end;
 }
 
-main div img {
+.center-google img {
     height: 92px;
     width: 292px;
+}
+
+.Barra-ext2 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Barra-ext {
+    display: flex;
 }
