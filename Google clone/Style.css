@@ -57,7 +57,7 @@ header {
     width: 32px;
 }
 
-svg {
+header nav div a svg {
     width: 32px;
     height: 32px;
     fill: black;
@@ -75,6 +75,9 @@ svg {
     border-radius: 16PX;
 }
 
+main {
+    text-align: center;
+}
 
 .center-google {
     display: flex;
@@ -89,12 +92,19 @@ svg {
     width: 292px;
 }
 
-.Barra-ext2 {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+main .Seccion1 {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 35px;
 }
 
-.Barra-ext {
-    display: flex;
+.barra {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+}
+
+main .barra svg {
+    width: 20px;
+    height: 20px;
 }
